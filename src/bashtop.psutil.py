@@ -33,8 +33,7 @@ allowed_commands: Tuple[str] = (
 	'get_cmd_out',
 	'get_sensors',
 	'get_sensors_check',
-	'get_ms',
-	'get_xs'
+	'get_ms'
 	)
 command: str = ''
 cpu_count: int = psutil.cpu_count()
